@@ -31,9 +31,9 @@ def kesha_maker(array)
   new_array = []
   array.each do
     new_array[counter] = array[counter][1] + array[counter][2] + "$" + array[counter][4..-1]
-   counter += 1
+    counter += 1
   end
-   new_array
+  new_array
 end
 
 def find_a(array)
