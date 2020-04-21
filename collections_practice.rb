@@ -40,9 +40,8 @@ def find_a(array)
 #that returns all the strings in the array passed to it that start_with? (hint) the letter "a". You'll want to use a high level iterator for this that finds, selects, or detects elements based on a condition.
   counter = 0
   return_array =[]
-  array.map do
-    if array
-    return_array[counter] = array[counter] if array[counter].start_with?   
+  array.each do
+    return_array[counter] = array[counter] if array[counter].start_with?('a')   
     counter += 1
   end
   return_array
