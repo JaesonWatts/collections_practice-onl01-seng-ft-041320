@@ -42,6 +42,7 @@ def find_a(array)
   return_array =[]
   array.each do
     return_array << array[counter] if array[counter].start_with?   
+    counter += 1
   end
   return_array
 end
