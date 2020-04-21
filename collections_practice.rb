@@ -40,13 +40,13 @@ def find_a(array)
 end
 
 def sum_array(array)
-  #that adds together all of the integers in the array and returns their sum.
-# Advanced: Try using the .inject method here.
+#that adds together all of the integers in the array and returns their sum.
 # sum = 0
 # array.each { |a| sum+=a }
 # sum
+# Advanced: Try using the .inject method here.
 # [5, 6, 7, 8].inject (0) { |result_memo, object| result_memo + object }
-array.inject (0) { |result_memo, object| result_memo + object }
+  array.inject (0) { |result_memo, object| result_memo + object }
 end
 
 def add_s(array)
