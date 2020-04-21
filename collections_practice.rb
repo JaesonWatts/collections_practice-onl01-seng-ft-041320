@@ -30,7 +30,7 @@ def kesha_maker(array)
   counter = 0
   new_array = []
   array.each do
-    new_array[counter] = array[counter][0..2] + "$" + array[counter][4..-1]
+    new_array[counter] = array[counter][0..1] + "$" + array[counter][3..-1]
     counter += 1
   end
   new_array
