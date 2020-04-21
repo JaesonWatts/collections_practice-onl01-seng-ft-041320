@@ -44,6 +44,7 @@ def sum_array(array)
 # Advanced: Try using the .inject method here.
 sum = 0
 array.each { |a| sum+=a }
+sum
 end
 
 def add_s(array)
