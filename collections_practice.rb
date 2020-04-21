@@ -43,6 +43,7 @@ def find_a(array)
   array.each do
     return_array[counter] = array[counter] if array[counter].start_with?    
   end
+  return_array
 end
 
 def sum_array(array)
