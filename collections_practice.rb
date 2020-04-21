@@ -42,6 +42,8 @@ end
 def sum_array(array)
   #that adds together all of the integers in the array and returns their sum.
 # Advanced: Try using the .inject method here.
+sum = 0
+array.each { |a| sum+=a }
 end
 
 def add_s(array)
